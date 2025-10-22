@@ -1,0 +1,14 @@
+body {
+    background-color: #14181c;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    border: solid gray 2px;
+    color: white;
+}
+
+.book {
+    border: solid white 2px;
+}
