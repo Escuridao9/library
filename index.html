@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button class="log">+ Log</button>
+    <header>
+        <h1>My Library</h1>
+        <button id="newBookBtn">New Book</button>
+    </header>
+
     <main>
-        <div class="container">
-            <div class="book">
-                <h1>Title</h1>
-                <h4>Author</h4>
-            </div>
-        </div>
+        <table>
+            <thead>
+                <tr id="libraryTable">
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="libraryTableBody"></tbody>
+        </table>
     </main>
     <script src="script.js"></script>
 </body>
