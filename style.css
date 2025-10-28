@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(17, 20, 34);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(24, 26, 29)
+}
+
+#log {
+    color: white;
+    background-color: rgb(3, 143, 21);
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+#bookshelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    border: solid gray 2px;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    border: solid white 2px;
+}
