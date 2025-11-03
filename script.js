@@ -16,3 +16,11 @@ function addBookToLibrary(title, author, haveRead) {
     myLibrary.push(book);
 }
 
+const dialog = document.getElementById("bookDialog");
+const addBookBtn = document.getElementByID("newBookBtn");
+const addModalBtn = document.getElementById(".save");
+
+addBookBtn.addEventListener("click", () => {
+    dialog.returnValue = "";
+    dialog.showModal();
+});
